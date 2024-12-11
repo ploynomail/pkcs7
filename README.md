@@ -1,7 +1,7 @@
 # pkcs7
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/smallstep/pkcs7.svg)](https://pkg.go.dev/github.com/smallstep/pkcs7)
-[![Build Status](https://github.com/smallstep/pkcs7/workflows/CI/badge.svg?query=branch%3Amain+event%3Apush)](https://github.com/smallstep/pkcs7/actions/workflows/ci.yml?query=branch%3Amain+event%3Apush)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ploynomail/pkcs7.svg)](https://pkg.go.dev/github.com/ploynomail/pkcs7)
+[![Build Status](https://github.com/ploynomail/pkcs7/workflows/CI/badge.svg?query=branch%3Amain+event%3Apush)](https://github.com/ploynomail/pkcs7/actions/workflows/ci.yml?query=branch%3Amain+event%3Apush)
 
 pkcs7 implements parsing and creating signed and enveloped messages.
 
@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"os"
 
-    "github.com/smallstep/pkcs7"
+    "github.com/ploynomail/pkcs7"
 )
 
 func SignAndDetach(content []byte, cert *x509.Certificate, privkey *rsa.PrivateKey) (signed []byte, err error) {

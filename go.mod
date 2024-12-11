@@ -1,4 +1,4 @@
-module github.com/smallstep/pkcs7
+module github.com/ploynomail/pkcs7
 
 go 1.14
 
